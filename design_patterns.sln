@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_patterns", "design_patterns.csproj", "{CF39C2E9-2E6D-49A5-8E44-1F74E7F3992E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF39C2E9-2E6D-49A5-8E44-1F74E7F3992E}.Debug|x86.ActiveCfg = Debug|x86
+		{CF39C2E9-2E6D-49A5-8E44-1F74E7F3992E}.Debug|x86.Build.0 = Debug|x86
+		{CF39C2E9-2E6D-49A5-8E44-1F74E7F3992E}.Release|x86.ActiveCfg = Release|x86
+		{CF39C2E9-2E6D-49A5-8E44-1F74E7F3992E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = design_patterns.csproj
+	EndGlobalSection
+EndGlobal
