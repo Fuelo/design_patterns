@@ -4,9 +4,6 @@ namespace design_patterns
 {
 	public class ShieldDefenseBehaviour : IDefenseBehaviour 
 	{
-		public ShieldDefenseBehaviour ()
-		{
-		}
 
 		public void defend ()
 		{

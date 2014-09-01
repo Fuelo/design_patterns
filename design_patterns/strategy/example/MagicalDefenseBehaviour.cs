@@ -4,11 +4,6 @@ namespace design_patterns
 {
 	public class MagicalDefenseBehaviour : IDefenseBehaviour
 	{
-		public MagicalDefenseBehaviour ()
-		{
-
-		}
-
 
 		public void defend ()
 		{

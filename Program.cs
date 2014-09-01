@@ -6,7 +6,9 @@ namespace design_patterns
 	{
 		public static void Main (string[] args)
 		{
-			StrategyPatternExample strategy
+            StrategyPatternExample strategyPatternExample = new StrategyPatternExample();
+
+            Console.ReadLine();
 		}
 	}
 }
