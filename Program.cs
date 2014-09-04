@@ -1,13 +1,26 @@
 ﻿using System;
+using design_patterns.example;
 
 namespace design_patterns
 {
 	class MainClass
 	{
+        static void strategyPatternTest() {
+            StrategyPatternExample strategyPatternExample = new StrategyPatternExample();
+            strategyPatternExample.execute();
+        }
+
+        static void observerPatternTest()
+        {
+
+            ObserverPatternExample example = new ObserverPatternExample();
+            example.execute();
+        }
+
 		public static void Main (string[] args)
 		{
-            StrategyPatternExample strategyPatternExample = new StrategyPatternExample();
-
+            //strategyPatternTest();
+            observerPatternTest();
             Console.ReadLine();
 		}
 	}
