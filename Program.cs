@@ -12,15 +12,21 @@ namespace design_patterns
 
         static void observerPatternTest()
         {
-
             ObserverPatternExample example = new ObserverPatternExample();
             example.execute();
         }
 
+		static void decoratorPatternTest()
+		{
+			DecoratorExample example = new DecoratorExample();
+			example.execute ();
+		}
+
 		public static void Main (string[] args)
 		{
-            //strategyPatternTest();
-            observerPatternTest();
+//            strategyPatternTest();
+//            observerPatternTest();
+//			decoratorPatternTest ();
             Console.ReadLine();
 		}
 	}

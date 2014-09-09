@@ -50,9 +50,22 @@
     <Compile Include="design_patterns\strategy\example\SwordAttackBehaviour.cs" />
     <Compile Include="design_patterns\strategy\example\BowAttackBehaviour.cs" />
     <Compile Include="design_patterns\strategy\example\StrategyPatternExample.cs" />
+    <Compile Include="design_patterns\decorator\ProductComponent.cs" />
+    <Compile Include="design_patterns\decorator\ProductDecorator.cs" />
+    <Compile Include="design_patterns\decorator\example\PizzaWhiteSauceComponent.cs" />
+    <Compile Include="design_patterns\decorator\example\PizzaRedSauceComponent %28copy%29.cs" />
+    <Compile Include="design_patterns\decorator\example\CheeseDecorator.cs" />
+    <Compile Include="design_patterns\decorator\example\SalamiDecorator.cs" />
+    <Compile Include="design_patterns\decorator\example\OnionsDecorator.cs" />
+    <Compile Include="design_patterns\decorator\example\MushroomsDecorator.cs" />
+    <Compile Include="design_patterns\decorator\example\DecoratorExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="design_patterns\decorator\" />
+    <Folder Include="design_patterns\decorator\example\" />
   </ItemGroup>
 </Project>

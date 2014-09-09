@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace design_patterns
+namespace design_patterns.example
 {
 	public class MagicalDefenseBehaviour : IDefenseBehaviour
 	{
