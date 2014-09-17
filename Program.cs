@@ -22,11 +22,18 @@ namespace design_patterns
 			example.execute ();
 		}
 
+		static void singletonPatternTest()
+		{
+			SingletonExample example = new SingletonExample();
+			example.execute ();
+		}
+
 		public static void Main (string[] args)
 		{
 //            strategyPatternTest();
 //            observerPatternTest();
 //			decoratorPatternTest ();
+			singletonPatternTest ();
             Console.ReadLine();
 		}
 	}

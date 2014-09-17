@@ -59,6 +59,8 @@
     <Compile Include="design_patterns\decorator\example\OnionsDecorator.cs" />
     <Compile Include="design_patterns\decorator\example\MushroomsDecorator.cs" />
     <Compile Include="design_patterns\decorator\example\DecoratorExample.cs" />
+    <Compile Include="design_patterns\singleton\NormalSingleton.cs" />
+    <Compile Include="design_patterns\singleton\example\SingletonExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -67,5 +69,7 @@
   <ItemGroup>
     <Folder Include="design_patterns\decorator\" />
     <Folder Include="design_patterns\decorator\example\" />
+    <Folder Include="design_patterns\singleton\" />
+    <Folder Include="design_patterns\singleton\example\" />
   </ItemGroup>
 </Project>
