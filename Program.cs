@@ -28,12 +28,19 @@ namespace design_patterns
 			example.execute ();
 		}
 
+		static void commandPatternExample()
+		{
+			CommandPatternExample example = new CommandPatternExample();
+			example.execute ();
+		}
+
 		public static void Main (string[] args)
 		{
 //            strategyPatternTest();
 //            observerPatternTest();
 //			decoratorPatternTest ();
-			singletonPatternTest ();
+			//singletonPatternTest ();
+			commandPatternExample ();
             Console.ReadLine();
 		}
 	}

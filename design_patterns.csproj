@@ -61,6 +61,15 @@
     <Compile Include="design_patterns\decorator\example\DecoratorExample.cs" />
     <Compile Include="design_patterns\singleton\NormalSingleton.cs" />
     <Compile Include="design_patterns\singleton\example\SingletonExample.cs" />
+    <Compile Include="design_patterns\command\Command.cs" />
+    <Compile Include="design_patterns\command\example\CommandPatternExample.cs" />
+    <Compile Include="design_patterns\command\example\VolumeUp.cs" />
+    <Compile Include="design_patterns\command\example\Television.cs" />
+    <Compile Include="design_patterns\command\example\VolumeDown.cs" />
+    <Compile Include="design_patterns\command\example\TelevisionOn.cs" />
+    <Compile Include="design_patterns\command\example\TelevisionOff.cs" />
+    <Compile Include="design_patterns\command\example\Invoker.cs" />
+    <Compile Include="design_patterns\command\example\EmptyCommand.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -71,5 +80,7 @@
     <Folder Include="design_patterns\decorator\example\" />
     <Folder Include="design_patterns\singleton\" />
     <Folder Include="design_patterns\singleton\example\" />
+    <Folder Include="design_patterns\command\" />
+    <Folder Include="design_patterns\command\example\" />
   </ItemGroup>
 </Project>
