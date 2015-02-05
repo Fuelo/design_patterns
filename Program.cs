@@ -34,13 +34,18 @@ namespace design_patterns
 			example.execute ();
 		}
 
+
+		static void TestPattern(ITestExample example){
+			example.execute ();
+		}
+
 		public static void Main (string[] args)
 		{
 //            strategyPatternTest();
 //            observerPatternTest();
 //			decoratorPatternTest ();
 			//singletonPatternTest ();
-			commandPatternExample ();
+			TestPattern(new AdapterPatternExample());
             Console.ReadLine();
 		}
 	}

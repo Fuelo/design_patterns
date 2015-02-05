@@ -70,6 +70,13 @@
     <Compile Include="design_patterns\command\example\TelevisionOff.cs" />
     <Compile Include="design_patterns\command\example\Invoker.cs" />
     <Compile Include="design_patterns\command\example\EmptyCommand.cs" />
+    <Compile Include="design_patterns\adapter\example\IDuck.cs" />
+    <Compile Include="design_patterns\adapter\example\ITurkey.cs" />
+    <Compile Include="design_patterns\adapter\example\MallardDuck.cs" />
+    <Compile Include="design_patterns\adapter\example\WildTurkey.cs" />
+    <Compile Include="design_patterns\adapter\example\TurkeyAdapter.cs" />
+    <Compile Include="design_patterns\adapter\example\AdapterPatternExample.cs" />
+    <Compile Include="design_patterns\ITestExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -82,5 +89,8 @@
     <Folder Include="design_patterns\singleton\example\" />
     <Folder Include="design_patterns\command\" />
     <Folder Include="design_patterns\command\example\" />
+    <Folder Include="design_patterns\adapter\" />
+    <Folder Include="design_patterns\facade\" />
+    <Folder Include="design_patterns\adapter\example\" />
   </ItemGroup>
 </Project>
